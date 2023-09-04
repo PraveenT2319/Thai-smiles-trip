@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Thai Smiles Trip</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--Default CSS-->
+    <link href="css/default.css" rel="stylesheet" type="text/css">
+    <!--Custom CSS-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--Color Switcher CSS-->
+    <link rel="stylesheet" href="css/color/color-default.css">
+    <!--Plugin CSS-->
+    <link href="css/plugin.css" rel="stylesheet" type="text/css">
+    <!--Flaticons CSS-->
+    <link href="fonts/flaticon.css" rel="stylesheet" type="text/css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <style>.float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:60px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }</style>   
+    <style>/* styles.css */
+
+    
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        button[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        </style>
+</head>
+<body>
+
+    <!-- Preloader -->
+     <div id="preloader">
+        <div id="status"></div>
+    </div>
+    <!-- Preloader Ends -->
+
+    <!-- header starts -->
+    <header class="main_header_area">
+        <div class="header-content">
+            <div class="container">
+                <div class="links links-left">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-phone-alt"></i> +66 94 253 7766</a></li>
+                        <li><a href="#"><i class="fa fa-envelope-open"></i> info@thaismilestrip.com</a></li>
+                        <li>
+                            <select>
+                                <option>EUR</option>
+                                <option>FRA</option>
+                                <option>ESP</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links links-right pull-right">
+                    <ul>
+                        <li>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </li>
+                     
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Bar -->
+        <div class="header_menu affix-top">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-flex">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="index.html">
+                               <img src="images/Thailand/thai-logo.png" alt="image">
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav" id="responsive-menu">
+                                <li>
+                                    <a href="index.html">Home </a></li>
+                                    <li>
+                                        <a href="about.html">About  </a></li>
+                                        <li>
+                                            <a href="service.html">Service</a></li>
+                                            <li  class="active">
+                                                <a href="destination.html">Destination </a></li>
+                                                <li>
+                                                    <a href="gallery1.html">Gallery </a></li>
+                                                    <li>
+                                                        <a href="contact.html">Contact </a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <div id="slicknav-mobile"></div>
+                    </div>
+                </div><!-- /.container-fluid --> 
+            </nav>
+        </div>
+ 
+        <!-- Navigation Bar Ends -->
+    </header>
+    <!-- header ends -->
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-outer text-center">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <h2 class="white">Destination</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Destination</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- BreadCrumb Ends -->
+
+    <!-- tour list starts -->
+    <section class="list">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 pad-left-30 pull-right">
+                    <div class="blog-list">
+                        
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                   <div class="blog-image">
+                                        <a href="toursingle-1.html" style="background-image: url(images/Thailand/Bangkok.jpg);"></a>
+                                        <div class="b-date"><a href="#" class="white"><strong>30</strong> Jan 2020</a></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="toursingle-1.html">Bangkok's Bustling Charm</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>Bangkok's bustling charm" encapsulates the vibrant energy and cultural richness of Thailand's capital, featuring bustling street life, historic temples, and a dynamic fusion of tradition and modernity that captivates visitors from around the world.</p>
+                                        <p><i class="flaticon-location-pin"></i> Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="toursingle-1.html">Chiang Mai's Cultural Treasures</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>Chiang Mai's Cultural Treasures" represent the city's wealth of historical temples, traditional festivals, and authentic Thai culture, making it a captivating destination for travelers seeking a deeper cultural experience.
+</p>
+                                        <p><i class="flaticon-location-pin"></i> Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                   <div class="blog-image">
+                                        <a href="toursingle-1.html" style="background-image: url(images/Thailand/gallery.jpg);"></a>
+                                        <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                   <div class="blog-image">
+                                        <a href="toursingle-1.html" style="background-image: url(images/Thailand/paradise.jpg);"></a>
+                                        <div class="b-date"><a href="#" class="white"><strong>30</strong> Jan 2020</a></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="toursingle-1.html">Phuket's Beach Paradise</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>Phuket's Beach Paradise" epitomizes the island's stunning coastline, pristine beaches, and vibrant nightlife, making it a dream destination for those seeking sun, sea, and entertainment in Thailand.</p>
+                                        <p><i class="flaticon-location-pin"></i>Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="toursingle-1.html">Ayutthaya's Historic Ruins</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>Ayutthaya's Historic Ruins" highlight the city's UNESCO World Heritage status, showcasing ancient temples, palaces, and archaeological wonders that offer a glimpse into Thailand's rich history and heritage.</p>
+                                        <p><i class="flaticon-location-pin"></i>Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                   <div class="blog-image">
+                                        <a href="toursingle-1.html" style="background-image: url(images/Thailand/allchianggt.jpg);"></a>
+                                        <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                   <div class="blog-image">
+                                        <a href="toursingle-1.html" style="background-image: url(images/Thailand/krabig.jpg);"></a>
+                                        <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="blog-single.html">Krabi's Coastal Beauty</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>Krabi's Coastal Beauty" captures the essence of the province with its breathtaking limestone cliffs, crystal-clear waters, and idyllic beaches, making it a natural paradise for travelers and outdoor enthusiasts.</p>
+                                        <p><i class="flaticon-location-pin"></i>Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                               
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="blog-single.html">Chiang Rai's Unique Wonders</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>"Chiang Rai's Unique Wonders" refers to the city's one-of-a-kind attractions like the White Temple (Wat Rong Khun) and the Blue Temple (Wat Rong Suea Ten), which showcase exceptional artistry and spiritual significance, drawing visitors from far and wide.</p>
+                                        <p><i class="flaticon-location-pin"></i>Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                    <div class="blog-image">
+                                         <a href="toursingle-1.html" style="background-image: url(images/Thailand/gallery.jpg);"></a>
+                                         <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                     </div> 
+                                 </div>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                   <div class="blog-image">
+                                        <a href="toursingle-1.html" style="background-image: url(images/Thailand/pai.jpg);"></a>
+                                        <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="blog-single.html">Pai's Scenic Tranquility</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>"Pai's Scenic Tranquility" encapsulates the serene and picturesque landscapes, lush mountains, and relaxed atmosphere that make Pai a tranquil and captivating destination for those seeking a peaceful getaway in Thailand.</p>
+                                        <p><i class="flaticon-location-pin"></i>Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                               
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="blog-single.html">Hua Hin's Coastal Resort</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>"Hua Hin's Coastal Resort" signifies this charming seaside town's role as a popular beach destination known for its relaxed ambiance, luxury resorts, and a mix of cultural and recreational activities.</p>
+                                        <p><i class="flaticon-location-pin"></i>Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                    <div class="blog-image">
+                                         <a href="toursingle-1.html" style="background-image: url(images/Thailand/resort.jpg);"></a>
+                                         <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                     </div> 
+                                 </div>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                   <div class="blog-image">
+                                        <a href="toursingle-1.html" style="background-image: url(images/Thailand/kohsamuvi.jpg);"></a>
+                                        <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="blog-single.html">Kanchanaburi's Historical Sites</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>"Kanchanaburi's Historical Sites" encompasses the region's significance in World War II history, featuring attractions like the Death Railway and Erawan National Park, offering visitors a poignant glimpse into the past amid its natural beauty.</p>
+                                        <p><i class="flaticon-location-pin"></i>Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                               
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="blog-single.html">Ko Samui's Tropical Retreat</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>"Ko Samui's Tropical Retreat" characterizes the island's lush rainforests, palm-fringed beaches, and vibrant nightlife, making it a popular haven for travelers seeking a tropical paradise with a mix of relaxation and entertainment.</p>
+                                        <p><i class="flaticon-location-pin"></i>Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                    <div class="blog-image">
+                                         <a href="toursingle-1.html" style="background-image: url(images/Thailand/kohsamuvi.jpg);"></a>
+                                         <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                     </div> 
+                                 </div>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                   <div class="blog-image">
+                                        <a href="toursingle-1.html" style="background-image: url(images/Thailand/sukhoti.jpg);"></a>
+                                        <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="blog-single.html">Sukhothai's Ancient Legacy</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>"Sukhothai's Ancient Legacy" underscores the historical importance of this UNESCO World Heritage site, known for its well-preserved ruins and role as the first capital of Thailand, preserving the nation's cultural and historical roots.</p>
+                                        <p><i class="flaticon-location-pin"></i> Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-full mar-bottom-30">
+                            <div class="row">
+                               
+                                <div class="col-md-8 col-xs-12">
+                                    <div class="blog-content">
+                                        <h3 class="blog-title"><a href="blog-single.html">Ko Phi Phi's Island Paradise</a></h3>
+                                        <div class="rating mar-bottom-15">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <p>"Ko Phi Phi's Island Paradise" embodies the stunning natural beauty, clear waters, and picturesque landscapes of these Thai islands, making them a dream destination for beach lovers and nature enthusiasts.</p>
+                                        <p><i class="flaticon-location-pin"></i>Thailand</p>
+                                        <p class="price mar-bottom-0">From <span>₹350.00</span> / night</p>       
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-12 blog-height">
+                                    <div class="blog-image">
+                                         <a href="toursingle-1.html" style="background-image: url(images/Thailand/phi-phi.jpg);"></a>
+                                         <div class="b-date"><a href="#" class="white"><strong>01</strong> feb 2020</a></div>
+                                     </div> 
+                                 </div>
+                            </div>
+                        </div>
+
+
+                        <div class="blog-button text-center">
+                            <a href="toursingle-1.html" class="biz-btn biz-btn1">Load More</a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="list-sidebar">
+                        <div class="sidebar-item">
+                            <form class="filter-box">
+                                <h3 class="white">Find The Places</h3>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="form-group">
+                                            <label class="white">Your Destination</label>
+                                            <div class="input-box">
+                                                <i class="flaticon-placeholder"></i>
+                                                <select class="niceSelect">
+                                                    <option value="1">Where are you going?</option>
+                                                    <option value="2">Bangkok</option>
+                                                    <option value="3">Chiang Mai</option>
+                                                    <option value="4">Phuket</option>
+                                                    <option value="5">Ayutthaya</option>
+                                                </select>
+                                            </div>                            
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label class="white">Check In</label>
+                                            <div class="input-box">
+                                                <i class="flaticon-calendar"></i>
+                                                <input id="date-range0" type="text" placeholder="yyyy-mmm-dd">
+                                            </div>                            
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label class="white">Check Out</label>
+                                            <div class="input-box">
+                                                <i class="flaticon-calendar"></i>
+                                                <input id="date-range1" type="text" placeholder="yyyy-mm-dd">
+                                            </div>                            
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label class="white">Adult</label>
+                                            <div class="input-box">
+                                                <i class="flaticon-add-user"></i>
+                                                <select class="niceSelect">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                            </div>                             
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label class="white">Children</label>
+                                            <div class="input-box">
+                                                <i class="flaticon-add-user"></i>
+                                                <select class="niceSelect">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                            </div>                             
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <div class="form-group mar-top-15">
+                                            <a href="#" class="biz-btn">Search</a>                         
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                      
+                       
+                        <form action="submit_form.php" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="destination">Destination:</label>
+                                <input type="text" id="destination" name="destination" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="checkin">Check-in:</label>
+                                <input type="date" id="checkin" name="checkin" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="checkout">Check-out:</label>
+                                <input type="date" id="checkout" name="checkout" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address:</label>
+                                <textarea id="address" name="address" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                       
+                        <div class="sidebar-item">
+                            <h3>Price Range(₹)</h3>
+                            <div class="range-slider">
+                                <div data-min="0" data-max="2000" data-unit="₹" data-min-name="min_price" data-max-name="max_price" class="range-slider-ui ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+                                    <span class="min-value">0 ₹</span> 
+                                    <span class="max-value">2000 ₹</span>
+                                    <div class="ui-slider-range ui-widget-header ui-corner-all full" style="left: 0%; width: 100%;"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="sidebar-item">
+                            <h3>City</h3>
+                            <div class="pretty p-default p-thick p-pulse">
+                                <input type="checkbox" />
+                                <div class="state">
+                                    <label>
+                                        Bangkok<span class="number">749</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="pretty p-default p-thick p-pulse">
+                                <input type="checkbox" checked />
+                                <div class="state">
+                                    <label>
+                                        Chiang Mai<span class="number">630</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="pretty p-default p-thick p-pulse">
+                                <input type="checkbox" />
+                                <div class="state">
+                                    <label>
+                                        Phuket<span class="number">58</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="pretty p-default p-thick p-pulse">
+                                <input type="checkbox" />
+                                <div class="state">
+                                    <label>
+                                        Ayutthaya<span class="number">29</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="pretty p-default p-thick p-pulse">
+                                <input type="checkbox" />
+                                <div class="state">
+                                    <label>
+                                        Krabi<span class="number">29</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="pretty p-default p-thick p-pulse">
+                                <input type="checkbox" />
+                                <div class="state">
+                                    <label>
+                                        Chiang Rai<span class="number">29</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="pretty p-default p-thick p-pulse">
+                                <input type="checkbox" />
+                                <div class="state">
+                                    <label>
+                                        Pai<span class="number">29</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="pretty p-default p-thick p-pulse">
+                                <input type="checkbox" />
+                                <div class="state">
+                                    <label>
+                                        Hua Hin<span class="number">29</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- tour list ends -->
+    
+  <!-- Instagram starts -->
+  <section class="insta-main pad-0">
+    <div class="insta-inner">
+        <div class="row display-flex">
+            <div class="col-md-2 col-sm-3 col-xs-12">
+                <div class="insta-title">
+                    <div class="insta-title-inner text-center">
+                        <h4 class="white mar-bottom-5">Follow@instagram</h4>
+                         <h3 class="white bold">Thai Smiles trip</h3>
+                        <a href="#" class="biz-btn-white">Follow Us</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-10 col-sm-9 col-xs-12">
+                <div class="row attract-slider">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="insta-image">
+                            <a href="#"><img src="images/Thailand/g1.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="insta-image">
+                            <a href="#"><img src="images/Thailand/g2.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="insta-image">
+                            <a href="#"><img src="images/Thailand/g3.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="insta-image">
+                            <a href="#"><img src="images/Thailand/g4.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="insta-image">
+                            <a href="#"><img src="images/Thailand/g5.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="insta-image">
+                            <a href="#"><img src="images/Thailand/g6.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="insta-image">
+                            <a href="#"><img src="images/Thailand/g7.jpg" alt="insta"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</section>
+<!-- Instagram ends -->
+
+<!-- footer starts -->
+<footer>
+    <div class="footer-upper pad-bottom-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="footer-about">
+                      <a href="index.html"><img src="images/Thailand/thai-logo.png" alt="image"></a>
+                        <div>
+                            <h3 class="white">About</h3>
+                            <p>Thailand, often referred to as the "Land of Smiles," is a captivating Southeast Asian nation celebrated for its rich cultural heritage and diverse landscapes. </p>
+                           
+                        </div>
+                        <h3 class="white">Social Media</h3>
+                        
+                        <ul class="social-links">
+                            <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-links">
+                        <h3 class="white">Important Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Service</a></li>
+                            <li><a href="#"> Top Destination</a></li>
+                            <li><a href="#">Gallery</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="footer-links">
+                        <h3 class="white">Top  Places</h3>
+                        <ul>
+                            <li><a href="#">Bangkok</a></li>
+                            <li><a href="#">Chiang Mai</a></li>
+                            <li><a href="#">Phuket</a></li>
+                            <li><a href="#">Ayutthaya</a></li>
+                            <li><a href="#">Chiang Rai</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="footer-subscribe">
+                        <h3 class="white">Contact info</h3>
+                        <ul>
+                            <li class="fa fa-map-marker-alt" style="color: #fff;">&nbsp;623, 13 Soi Charurat, Makkasan, Ratchathewi, Bangkok 10400, Thailand</li>
+                            <li  class="fa fa-phone-alt" style="color: #fff;">&nbsp;+66 94 253 7766</li>
+                            <li  class="fa fa-envelope-open" style="color: #fff;">&nbsp;info@thaismilestrip.com</li>
+                        </ul>
+                        <form>
+                            <input type="email" placeholder="Your Email">
+                            <a href="#" class="biz-btn mar-top-15">Subscribe</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="copyright-text pull-left">
+                <p class="mar-0">2023 Bright Ads Digital India Pvt Ltd. All rights reserved.</p>
+            </div>
+            <div class="footer-nav pull-right">
+                <ul>
+                   
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer ends -->
+
+    <!-- Back to top start -->
+    <div id="back-to-top">
+        <a href="#"></a>
+    </div>
+    <!-- Back to top ends -->
+
+    <!-- search popup -->
+    <div id="search1">
+        <button type="button" class="close">×</button>
+        <form>
+            <input type="search" value="" placeholder="type keyword(s) here" />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+
+    <div class="modal fade" id="login" role="dialog">
+        <div class="modal-dialog">
+            <div class="login-content">
+                <div class="login-title section-border">
+                    <h3>Login</h3>                    
+                </div>
+                <div class="login-form section-border">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter email address">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Enter password">
+                        </div>
+                    </form>
+                    <div class="form-btn">
+                        <a href="#" class="biz-btn biz-btn1">LOGIN</a>
+                    </div>
+                    <div class="form-group form-checkbox">
+                        <input type="checkbox"> Remember Me
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+                <div class="login-social section-border">
+                    <p>or continue with</p>
+                    <a href="#" class="btn-facebook"><i class="fab fa-facebook" aria-hidden="true"></i> Facebook</a>
+                    <a href="#" class="btn-twitter"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>
+                </div>
+                <div class="sign-up">
+                    <p>Do not have an account?<a href="#">Sign Up</a></p>
+                </div>                
+            </div>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+    </div>
+
+    <div class="modal fade" id="register" role="dialog">
+        <div class="modal-dialog">
+            <div class="login-content">
+                <div class="login-title section-border">
+                    <h3>Register</h3>                    
+                </div>
+                <div class="login-form section-border">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="User Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Password">
+                        </div>
+                    </form>
+                    <div class="form-btn">
+                        <a href="#" class="biz-btn biz-btn1">REGISTER</a>
+                    </div>
+                    <div class="form-group form-checkbox">
+                        <input type="checkbox"> Remember Me
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+                <div class="login-social section-border">
+                    <p>or continue with</p>
+                    <a href="#" class="btn-facebook"><i class="fab fa-facebook" aria-hidden="true"></i> Facebook</a>
+                    <a href="#" class="btn-twitter"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>
+                </div>
+                <div class="sign-up">
+                    <p>Do not have an account?<a href="#">Sign Up</a></p>
+                </div>                
+            </div>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+    </div>
+
+    <!-- *Scripts* -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/color-switcher.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/custom-nav.js"></script>
+
+</body>
+</html>
